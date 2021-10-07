@@ -11,5 +11,14 @@ public class Main {
        //overflow - it skips back and cyles to MIN
         System.out.println("Busted MIN value = " + (myMinIntValue - 1));
         //results in underflow cycles back to MAX
+
+        int myMaxIntTest = 2_147_483_647;
+        //you can format by entering underscores
+
+        byte myMinByteValue = Byte.MIN_VALUE;
+        byte myMaxByteValue = Byte.MAX_VALUE;
+        System.out.println("Byte Minimum Value = " + myMinByteValue);
+        System.out.println("Byte Maximum Value = " + myMaxByteValue);
+
     }
 }
