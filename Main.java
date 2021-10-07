@@ -39,6 +39,14 @@ public class Main {
         long bigLongLiteralValue = 2_147_483_647L;
 
         //small can fit into larger 
-    
+        
+        int myTotal = (myMinIntValue /2);
+
+        byte myNewByteValue = (byte)(myMinByteValue /2);
+        //this is casting. tells it to be treated as a byte instead of int
+
+        short myNewShortValue = (short) (myMinShortValue / 2);
+        //CASTING telling it to convert to short;
+
     }
 }
